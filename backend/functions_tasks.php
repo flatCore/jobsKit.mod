@@ -305,6 +305,10 @@ function jk_get_tasks_by_job_id($id) {
 
 	global $mod_db;
 	
+	if($id < 1) {
+		return;
+	}
+	
 	$dbh = new PDO("sqlite:$mod_db");
 	$sql = "SELECT * FROM tasks WHERE task_project_id = $id ";
 	$get_task = $dbh->query($sql);
