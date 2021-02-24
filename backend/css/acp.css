@@ -1,0 +1,4 @@
+.task-done,
+.project-done {
+	opacity: 0.5;
+}
