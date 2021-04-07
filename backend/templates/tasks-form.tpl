@@ -86,7 +86,7 @@
 				<fieldset>
 					<legend>{label_status}</legend>
 	   			<div class="input-group">
-				 		<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				 		<div class="btn-group btn-group-toggle" data-bs-toggle="buttons">
 					 		<label class="btn btn-fc btn-sm active {class_open_active}"><input type="radio" name="task_status" value="1" {checked_task_open}> {btn_task_open} </label>
 					 		<label class="btn btn-fc btn-sm {class_done_active}"><input type="radio" name="task_status" value="2" {checked_task_done}> {btn_task_done} </label>
 					 	</div>
@@ -95,7 +95,7 @@
 	   		
 
 	   		
-					<input type="submit" name="submitTask" id="submitTask" class="btn btn-save btn-block" value="{btn_value}">
+					<input type="submit" name="submitTask" id="submitTask" class="btn btn-save w-100" value="{btn_value}">
 					<input type="hidden" name="csrf_token" value="{token}">
 					<input type="hidden" name="mode" value="{mode}">
 			</div>

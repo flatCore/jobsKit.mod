@@ -3,7 +3,7 @@
 		{alert}
 		{tasks_list}
 		<hr>
-		<a class="btn btn-link" role="button" data-toggle="collapse" href="#doneList" aria-expanded="false" aria-controls="collapseExample">{btn_collapse_tasks_done} ({cnt_done})</a>
+		<a class="btn btn-link" role="button" data-bs-toggle="collapse" href="#doneList" aria-expanded="false" aria-controls="collapseExample">{btn_collapse_tasks_done} ({cnt_done})</a>
 		<div class="collapse" id="doneList">
 			<div class="well">
 				{tasks_list_done}
@@ -13,7 +13,7 @@
 	</div>
 	<div class="col-md-3">
 		<div class="well well-sm">
-			<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=tasks_edit" class="btn btn-success btn-block">{lang_btn_new_task}</a>
+			<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=tasks_edit" class="btn btn-success w-100">{lang_btn_new_task}</a>
 			<hr class="shadow">
 
 			<form action="{form_action}" method="POST">
@@ -34,7 +34,7 @@
 			
 
 				<hr>
-				<input type="submit" name="submitFilter" id="submitFilter" class="btn btn-success btn-block" value="{btn_value}">
+				<input type="submit" name="submitFilter" id="submitFilter" class="btn btn-success w-100" value="{btn_value}">
 				<input type="hidden" name="csrf_token" value="{csrf_token}">
 			</form>
 		</div>

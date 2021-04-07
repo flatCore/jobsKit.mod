@@ -46,7 +46,7 @@
 					{user_list}
 				</fieldset>
 				<hr class="shadow">
-				<input type="submit" name="submitTimer" id="submitTimer" class="btn btn-success btn-block" value="{btn_value}">
+				<input type="submit" name="submitTimer" id="submitTimer" class="btn btn-success w-100" value="{btn_value}">
 				</div>
 			</div>
 	

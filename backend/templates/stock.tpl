@@ -6,10 +6,12 @@
 	</div>
 	<div class="col-md-3">
 		<div class="well well-sm">
-			<a href="?tn=moduls&sub=jobsKit.mod&a=stock_edit&edit=p" class="btn btn-success btn-block">Neues Produkt</a>
-			<a href="?tn=moduls&sub=jobsKit.mod&a=stock_edit&edit=s" class="btn btn-success btn-block">Neue Dienstleistung</a>
+			<div class="d-flex btn-group">
+				<a href="?tn=moduls&sub=jobsKit.mod&a=stock_edit&edit=p" class="btn btn-success w-100">Neues Produkt</a>
+				<a href="?tn=moduls&sub=jobsKit.mod&a=stock_edit&edit=s" class="btn btn-success w-100">Neue Dienstleistung</a>
+			</div>
 			<hr>
-			<a href="?tn=moduls&sub=jobsKit.mod&a=stock_categories" class="btn btn-fc btn-block">Rubriken</a>
+			<a href="?tn=moduls&sub=jobsKit.mod&a=stock_categories" class="btn btn-fc w-100">Rubriken</a>
 			
 			<hr>
 			

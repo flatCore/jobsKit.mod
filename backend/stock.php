@@ -149,15 +149,15 @@ $prevPage = $stock_start-$stock_limit;
 $cnt_pages = ceil($cnt_filter_items / $stock_limit);
 
 if($prevPage < 0) {
-	$prevPage_btn = '<a class="btn btn-fc btn-block disabled" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
+	$prevPage_btn = '<a class="btn btn-fc w-100 disabled" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
 } else {
-	$prevPage_btn = '<a class="btn btn-fc btn-block" href="?tn=moduls&sub=jobsKit.mod&a=stock&stock_start='.$prevPage.'" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
+	$prevPage_btn = '<a class="btn btn-fc w-100" href="?tn=moduls&sub=jobsKit.mod&a=stock&stock_start='.$prevPage.'" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
 }
 
 if($nextPage < ($cnt_filter_items-$stock_limit)+$stock_limit) {
-	$nextPage_btn = '<a class="btn btn-fc btn-block" href="?tn=moduls&sub=jobsKit.mod&a=stock&stock_start='.$nextPage.'" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
+	$nextPage_btn = '<a class="btn btn-fc w-100" href="?tn=moduls&sub=jobsKit.mod&a=stock&stock_start='.$nextPage.'" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
 } else {
-	$nextPage_btn = '<a class="btn btn-fc btn-block disabled" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
+	$nextPage_btn = '<a class="btn btn-fc w-100 disabled" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
 }
 
 $pag_form = '<form action="?tn=moduls&sub=jobsKit.mod&a=stock" method="POST">';

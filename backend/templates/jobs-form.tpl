@@ -7,10 +7,10 @@
 				<div class="card-header">
 			<nav>
 				<ul class="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
-					<li class="nav-item"><a class="nav-item nav-link active" id="nav-info-tab" data-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info" aria-selected="true">Info</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" id="nav-images-tab" data-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="false">{label_images}</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" id="nav-tasks-tab" data-toggle="tab" href="#nav-tasks" role="tab" aria-controls="nav-tasks" aria-selected="false">{label_tasks}</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" id="nav-accounting-tab" data-toggle="tab" href="#nav-accounting" role="tab" aria-controls="nav-accounting" aria-selected="false">{label_accounting}</a></li>
+					<li class="nav-item"><a class="nav-item nav-link active" id="nav-info-tab" data-bs-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info" aria-selected="true">Info</a></li>
+					<li class="nav-item"><a class="nav-item nav-link" id="nav-images-tab" data-bs-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="false">{label_images}</a></li>
+					<li class="nav-item"><a class="nav-item nav-link" id="nav-tasks-tab" data-bs-toggle="tab" href="#nav-tasks" role="tab" aria-controls="nav-tasks" aria-selected="false">{label_tasks}</a></li>
+					<li class="nav-item"><a class="nav-item nav-link" id="nav-accounting-tab" data-bs-toggle="tab" href="#nav-accounting" role="tab" aria-controls="nav-accounting" aria-selected="false">{label_accounting}</a></li>
 				</ul>
 			</nav>
 				</div>
@@ -102,7 +102,7 @@
 				<fieldset>
 					<legend>{label_status}</legend>
 	   			<div class="input-group">
-				 		<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				 		<div class="btn-group btn-group-toggle" data-bs-toggle="buttons">
 					 		<label class="btn btn-fc btn-sm {class_open_active}">
 					 			<input type="radio" name="project_status" class="" value="1" {checked_project_open}> {btn_project_open}
 					 		</label>
@@ -116,7 +116,7 @@
 				
 
 		   		
-				<input type="submit" name="submitProject" id="submitProject" class="btn btn-save btn-block" value="{btn_value}">
+				<input type="submit" name="submitProject" id="submitProject" class="btn btn-save w-100" value="{btn_value}">
 		   	
 		   	<input type="submit" name="reset" class="btn btn-fc" value="{btn_reset_value}">
 				<input type="hidden" name="csrf_token" value="{token}">

@@ -7,9 +7,9 @@
 				<div class="card-header">
 			<nav>
 				<ul class="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
-					<li class="nav-item"><a class="nav-item nav-link active" id="nav-info-tab" data-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info" aria-selected="true">Info</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" id="nav-images-tab" data-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="false">{label_images}</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" id="nav-accounting-tab" data-toggle="tab" href="#nav-accounting" role="tab" aria-controls="nav-accounting" aria-selected="false">{label_accounting}</a></li>
+					<li class="nav-item"><a class="nav-item nav-link active" id="nav-info-tab" data-bs-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info" aria-selected="true">Info</a></li>
+					<li class="nav-item"><a class="nav-item nav-link" id="nav-images-tab" data-bs-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="false">{label_images}</a></li>
+					<li class="nav-item"><a class="nav-item nav-link" id="nav-accounting-tab" data-bs-toggle="tab" href="#nav-accounting" role="tab" aria-controls="nav-accounting" aria-selected="false">{label_accounting}</a></li>
 				</ul>
 			</nav>
 				</div>
@@ -92,7 +92,7 @@
 				
 				<hr>
 				
-				<input type="submit" name="submitProduct" id="submitProduct" class="btn btn-block btn-success" value="{btn_value}">
+				<input type="submit" name="submitProduct" id="submitProduct" class="btn w-100 btn-success" value="{btn_value}">
 				<input type="hidden" name="csrf_token" value="{token}">
 				<input type="hidden" name="mode" value="{mode}">
 				<input type="hidden" name="item_type" value="{item_type}">

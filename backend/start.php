@@ -76,7 +76,7 @@ $tpl = str_replace('{lang_btn_new_task}', $mod_lang['btn_new_task'], $tpl);
 $tpl = str_replace('{lang_btn_new_project}', $mod_lang['btn_new_project'], $tpl);
 
 
-$btn_add_task = '<a href="?tn=moduls&sub=jobsKit.mod&a=tasks_edit" class="btn btn-success btn-sm float-right">'.$icon['plus'].'</a>';
+$btn_add_task = '<a href="?tn=moduls&sub=jobsKit.mod&a=tasks_edit" class="btn btn-success btn-sm float-end">'.$icon['plus'].'</a>';
 $tpl = str_replace('{btn_add_task}', $btn_add_task, $tpl);
 
 $tasks_table = '<table class="table table-sm">';
@@ -94,7 +94,7 @@ $tasks_table .= '</table>';
 $tpl = str_replace('{tasks_table}', $tasks_table, $tpl);
 
 
-$btn_add_job = '<a href="?tn=moduls&sub=jobsKit.mod&a=jobs_edit" class="btn btn-success btn-sm float-right">'.$icon['plus'].'</a>';
+$btn_add_job = '<a href="?tn=moduls&sub=jobsKit.mod&a=jobs_edit" class="btn btn-success btn-sm float-end">'.$icon['plus'].'</a>';
 $tpl = str_replace('{btn_add_job}', $btn_add_job, $tpl);
 
 $jobs_table = '<table class="table table-sm">';

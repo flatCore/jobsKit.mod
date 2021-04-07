@@ -104,15 +104,15 @@ $prevPage = $jobs_start-$jobs_limit;
 $cnt_pages = ceil($cnt_filter_jobs / $jobs_limit);
 
 if($prevPage < 0) {
-	$prevPage_btn = '<a class="btn btn-fc btn-block disabled" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
+	$prevPage_btn = '<a class="btn btn-fc w-100 disabled" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
 } else {
-	$prevPage_btn = '<a class="btn btn-fc btn-block" href="?tn=moduls&sub=jobsKit.mod&a=jobs&jobs_start='.$prevPage.'" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
+	$prevPage_btn = '<a class="btn btn-fc w-100" href="?tn=moduls&sub=jobsKit.mod&a=jobs&jobs_start='.$prevPage.'" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>';
 }
 
 if($nextPage < ($cnt_filter_jobs-$jobs_limit)+$jobs_limit) {
-	$nextPage_btn = '<a class="btn btn-fc btn-block" href="?tn=moduls&sub=jobsKit.mod&a=jobs&jobs_start='.$nextPage.'" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
+	$nextPage_btn = '<a class="btn btn-fc w-100" href="?tn=moduls&sub=jobsKit.mod&a=jobs&jobs_start='.$nextPage.'" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
 } else {
-	$nextPage_btn = '<a class="btn btn-fc btn-block disabled" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
+	$nextPage_btn = '<a class="btn btn-fc w-100 disabled" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>';
 }
 
 $pag_form = '<form action="?tn=moduls&sub=jobsKit.mod&a=jobs" method="POST">';
@@ -192,7 +192,7 @@ foreach($projects_array as $projects) {
 		
 		$check_percent = round(($cnt_checks*100)/$cnt_projects_tasks,2).'%';
 		
-		$task_pop = '<a data-toggle="popover" data-trigger="hover" data-html="true" data-content="'.$task_str.'">'.$cnt_projects_tasks.' ('.$check_percent.')</a>';
+		$task_pop = '<a data-bs-toggle="popover" data-trigger="hover" data-html="true" data-content="'.$task_str.'">'.$cnt_projects_tasks.' ('.$check_percent.')</a>';
 
 		
 	} else {

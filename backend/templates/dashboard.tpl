@@ -1,5 +1,5 @@
-<div class="card-deck mb-4">
-
+<div class="row row-cols-1 row-cols-md-2 g-4 pb-4">
+	<div class="col">
 		<div class="card ">
 			<div class="card-header"><strong>Projekte</strong> {btn_add_job}</div>
 				<div class="card-body">
@@ -19,7 +19,8 @@
 					</table>
   				</div>
 			</div>	
-
+	</div>
+	<div class="col">
 		<div class="card ">
 			<div class="card-header"><strong>Aufgaben</strong> {btn_add_task}</div>
 				<div class="card-body">
@@ -39,12 +40,13 @@
 					</table>
   				</div>
 			</div>		
-
+	</div>
 
 
 </div>
 
-<div class="card-deck">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+	<div class="col">
 		<div class="card ">
 			<div class="card-header"><strong>Aufgaben</strong> {btn_add_task}</div>
 			<div class="card-body">
@@ -53,7 +55,10 @@
 				</div>
 			</div>
 		</div>
-
+		
+	</div>
+	<div class="col">
+		
 		<div class="card ">
 			<div class="card-header"><strong>Aufträge</strong> {btn_add_job}</div>
 			<div class="card-body">
@@ -62,6 +67,9 @@
 				</div>
 			</div>
 		</div>
+		
+	</div>
+	<div class="col">
 		
 		<div class="card ">
 			<div class="card-header"><strong>Logfile</strong></div>
@@ -72,4 +80,5 @@
   			</div>
 			</div>	
 
+	</div>
 </div>

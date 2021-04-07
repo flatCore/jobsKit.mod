@@ -222,7 +222,7 @@ echo '</div>';
 echo '<div class="col-md-4">';
 echo '<div class="well well-sm">';
 
-echo '<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=reports_edit" class="btn btn-block btn-success">'.$mod_lang['title_timer_new'].'</a>';
+echo '<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=reports_edit" class="btn w-100 btn-success">'.$mod_lang['title_timer_new'].'</a>';
 echo '<hr class="shadow">';
 
 echo '<form action="acp.php?tn=moduls&sub=jobsKit.mod&a=reports" method="POST">';

@@ -5,7 +5,7 @@
 	</div>
 	<div class="col-md-3">
 		<div class="well well-sm">
-			<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=jobs_edit" class="btn btn-fc text-success btn-block">{lang_btn_new_project}</a>
+			<a href="acp.php?tn=moduls&sub=jobsKit.mod&a=jobs_edit" class="btn btn-fc text-success w-100">{lang_btn_new_project}</a>
 			<hr>
 			
 			<fieldset>
